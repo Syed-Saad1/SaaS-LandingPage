@@ -30,7 +30,7 @@ export default function Howitwork() {
         <div className="max-w-7xl mx-auto px-6 lg:px-30 grid lg:grid-cols-2 items-center gap-16">
           <div className="flex flex-col items-center lg:items-start">
             <div className="flex items-center gap-4">
-              <Image src="/icon.svg" width={70} height={70} alt="Icon" />
+              <Image src="/Icon.svg" width={70} height={70} alt="Icon" />
 
               <h1 className="font-extrabold text-3xl leading-tight">
                 Create your account <br />& start your work
