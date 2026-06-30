@@ -1,24 +1,3 @@
-// import React from "react";
-
-// export default function Testimonial() {
-//   return (
-//     <div className="mt-40">
-//       <div
-//         className="w-full h-130 bg-[#5236FF] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center"
-//         style={{
-//           backgroundImage: "url('/roundedangleback.png')",
-//         }}
-//       >
-//         <button className="bg-[#c4b1b1] px-4 py-3 rounded-full">
-//           Testimonial
-//         </button>
-//         <h1 className="text-white text-3xl font-bold mt-4">
-//           Trusted by millions of creators.
-//         </h1>
-//       </div>
-//     </div>
-//   );
-// }
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";

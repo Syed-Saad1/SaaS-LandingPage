@@ -9,7 +9,7 @@ const Navigation = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 px-4 sm:px-8 lg:px-20 py-5">
+    <header className="absolute top-0 left-0 right-0 z-50 px-4 sm:px-8 lg:px-30 py-5">
       <div className="flex items-center justify-between">
         <Image
           src="/Logo.png"

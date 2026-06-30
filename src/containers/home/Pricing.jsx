@@ -6,14 +6,14 @@ function Pricing() {
     <div>
       <div
         className="flex flex-col lg:flex-row
-  justify-center items-center gap-10 px-5 lg:px-0"
+  justify-center items-center gap-50 px-5 lg:px-0"
       >
         <div className="text-center lg:text-left">
           {" "}
           <button className="bg-[#EFECFF] text-[#5236FF] text-sm px-4 py-2 rounded-full">
             Pricing
           </button>
-          <h1 className="text-2xl md:text-3xl text-black font-extrabold mt-4">
+          <h1 className="text-2xl md:text-5xl text-black font-extrabold mt-4">
             {" "}
             Simple and <br /> flexible pricing
           </h1>
@@ -33,102 +33,111 @@ function Pricing() {
             <Image src="/AMAZON.svg" height={40} width={50} alt="AmazonImg" />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-5">
-          <div className="bg-[#F9F9F9] w-full sm:w-75 h-auto min-h-115 rounded-2xl">
-            {" "}
-            <div
-              className="flex
-            justify-between items-center px-8 py-6"
-            >
-              <h1 className="text-[#242331] font-extrabold text-2xl">Basic</h1>
-              <button className="bg-[#FFFFFF] px-4 py-2 rounded-full text-[#797979] font-bold text-sm">
-                Save 30%
-              </button>
-            </div>
-            <div className="flex justify-center">
-              <hr className="w-[80%] border-t border-[#D3D3D3]" />
-            </div>{" "}
-            <div className="flex flex-col justify-center items-center p-4">
-              <h1 className="font-extrabold text-2xl">
-                $7.99 <sub className="text-sm">/ month</sub>
-              </h1>
-              <button className="mt-4 bg-[#FFEECC] text-[#C68A15] font font-semibold text-xs px-4 py-1 rounded-full">
-                Billed as $96 per year
-              </button>
-            </div>
-            <div className="flex justify-center">
-              <hr className="w-[80%] border-t border-[#D3D3D3]" />
-            </div>{" "}
-            <div>
-              <p className="leading-7.5 text-center text-[#797979] mt-6 text-[14px]">
-                Unlimited members <br />{" "}
-                <span className="text-[#242331] font-bold"> Unlimited</span>{" "}
-                feedback <br /> Weekly team Feedback Friday <br /> Custom Kudos{" "}
-                <span className="text-[#242331] font-bold">
-                  +9 illustration
-                </span>{" "}
-                <br />
-                Team feedback history
-              </p>
-            </div>
-            <div className="flex justify-center items-center">
+        <div className="flex flex-col md:flex-row items-start gap-5">
+          <div className="w-full sm:w-75 h-112 rounded-2xl bg-[#F9F9F9]">
+            <div className="bg-[#F9F9F9] w-full sm:w-75 h-auto min-h-115 rounded-2xl">
               {" "}
-              <button className="mt-6 w-[80%] sm:w-auto border border-[#D3D3D3] px-4 py-2 rounded-full font-bold text-[14px]">
-                Get Started
-              </button>
+              <div
+                className="flex
+            justify-between items-center px-8 py-6"
+              >
+                <h1 className="text-[#242331] font-extrabold text-2xl">
+                  Basic
+                </h1>
+                <button className="bg-[#FFFFFF] px-4 py-2 rounded-full text-[#797979] font-bold text-sm">
+                  Save 30%
+                </button>
+              </div>
+              <div className="flex justify-center">
+                <hr className="w-[80%] border-t border-[#D3D3D3]" />
+              </div>{" "}
+              <div className="flex flex-col justify-center items-center p-4">
+                <h1 className="font-extrabold text-2xl">
+                  $7.99 <sub className="text-sm">/ month</sub>
+                </h1>
+                <button className="mt-4 bg-[#FFEECC] text-[#C68A15] font font-semibold text-xs px-4 py-1 rounded-full">
+                  Billed as $96 per year
+                </button>
+              </div>
+              <div className="flex justify-center">
+                <hr className="w-[80%] border-t border-[#D3D3D3]" />
+              </div>{" "}
+              <div>
+                <p className="leading-7.5 text-center text-[#797979] mt-6 text-[14px]">
+                  Unlimited members <br />{" "}
+                  <span className="text-[#242331] font-bold"> Unlimited</span>{" "}
+                  feedback <br /> Weekly team Feedback Friday <br /> Custom
+                  Kudos{" "}
+                  <span className="text-[#242331] font-bold">
+                    +9 illustration
+                  </span>{" "}
+                  <br />
+                  Team feedback history
+                </p>
+              </div>
+              <div className="flex justify-center items-center">
+                {" "}
+                <button className="mt-6 w-[80%] sm:w-auto border border-[#D3D3D3] px-4 py-2 rounded-full font-bold text-[14px]">
+                  Get Started
+                </button>
+              </div>
             </div>
           </div>
-          <div className="bg-[#F9F9F9] w-full sm:w-75 h-auto min-h-124 rounded-2xl">
-            {" "}
-            <div
-              className="flex
-            justify-between items-center px-8 py-6"
-            >
-              <h1 className="text-[#242331] font-extrabold text-2xl">
-                Advanced
-              </h1>
-              <button className="bg-[#EFECFF] px-4 py-2 rounded-full text-[#5236FF] font-bold text-sm">
-                Popular
-              </button>
-            </div>
-            <div className="flex justify-center">
-              <hr className="w-[80%] border-t border-[#D3D3D3]" />
-            </div>{" "}
-            <div className="flex flex-col justify-center items-center p-4">
-              <h1 className="font-extrabold text-2xl">
-                $10.99 <sub className="text-sm">/ month</sub>
-              </h1>
-              <button className="mt-4 bg-[#FFEECC] text-[#C68A15] font font-semibold text-xs px-4 py-1 rounded-full">
-                Billed as $199 per year
-              </button>
-            </div>
-            <div className="flex justify-center">
-              <hr className="w-[80%] border-t border-[#D3D3D3]" />
-            </div>{" "}
-            <div>
-              <p className="leading-7.5 text-center text-[#797979] mt-6 text-[14px]">
-                Unlimited members <br />{" "}
-                <span className="text-[#5236FF] font-bold"> Unlimited</span>{" "}
-                feedback <br /> Weekly team Feedback Friday <br /> Custom Kudos{" "}
-                <span className="text-[#5236FF] font-bold">
-                  +9 illustration
-                </span>{" "}
-                <br />
-                Team feedback history (30 items) <br /> Personal feedback
-                history (6 items) <br /> Slack integration{" "}
-              </p>
-            </div>
-            <div className="flex justify-center items-center">
+
+          <div className="w-full sm:w-75 h-130 rounded-2xl bg-[#F9F9F9]">
+            <div className="bg-[#F9F9F9] w-full sm:w-75 h-130 min-h-130 rounded-2xl">
               {" "}
-              <button className="mt-6 bg-[#242331] px-5 py-2 rounded-full font-bold text-white text-[14px]">
-                Get Started
-              </button>
-            </div>
+              <div
+                className="flex
+            justify-between items-center px-8 py-6"
+              >
+                <h1 className="text-[#242331] font-extrabold text-2xl">
+                  Advanced
+                </h1>
+                <button className="bg-[#EFECFF] px-4 py-2 rounded-full text-[#5236FF] font-bold text-sm">
+                  Popular
+                </button>
+              </div>
+              <div className="flex justify-center">
+                <hr className="w-[80%] border-t border-[#D3D3D3]" />
+              </div>{" "}
+              <div className="flex flex-col justify-center items-center p-4">
+                <h1 className="font-extrabold text-2xl">
+                  $10.99 <sub className="text-sm">/ month</sub>
+                </h1>
+                <button className="mt-4 bg-[#FFEECC] text-[#C68A15] font font-semibold text-xs px-4 py-1 rounded-full">
+                  Billed as $199 per year
+                </button>
+              </div>
+              <div className="flex justify-center">
+                <hr className="w-[80%] border-t border-[#D3D3D3]" />
+              </div>{" "}
+              <div>
+                <p className="leading-7.5 text-center text-[#797979] mt-6 text-[14px]">
+                  Unlimited members <br />{" "}
+                  <span className="text-[#5236FF] font-bold"> Unlimited</span>{" "}
+                  feedback <br /> Weekly team Feedback Friday <br /> Custom
+                  Kudos{" "}
+                  <span className="text-[#5236FF] font-bold">
+                    +9 illustration
+                  </span>{" "}
+                  <br />
+                  Team feedback history (30 items) <br /> Personal feedback
+                  history (6 items) <br /> Slack integration{" "}
+                </p>
+              </div>
+              <div className="flex justify-center items-center">
+                {" "}
+                <button className="mt-6 bg-[#242331] px-5 py-2 rounded-full font-bold text-white text-[14px]">
+                  Get Started
+                </button>
+              </div>
+            </div>{" "}
           </div>
         </div>
       </div>
       <div
-        className="mt-20 lg:mt-40 w-full rounded-4xl min-h-100 lg:h-100 overflow-hidden flex flex-col lg:flex-row justify-center items-center pt-10 lg:pt-14 gap-10 lg:gap-36 px-5"
+        className="mt-20 lg:mt-40 w-[86%] mx-auto rounded-4xl min-h-100 lg:h-100 overflow-hidden flex flex-col lg:flex-row justify-center items-center pt-10 lg:pt-14 gap-10 lg:gap-60"
         style={{
           backgroundImage: "url('/BackgroundBlue.png')",
         }}

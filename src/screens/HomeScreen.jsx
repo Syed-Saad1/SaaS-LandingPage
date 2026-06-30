@@ -9,31 +9,35 @@ import Footer from "@/containers/Footer";
 
 const HomeScreen = () => {
   return (
-    <div className="relative z-10">
-      {" "}
-      <img
-        src="/Background.png"
-        alt="Background"
+    <main className="relative overflow-hidden">
+      {/* Purple Background */}
+      <div
         className="
-      absolute
-      top-0 right-0
-      w-full lg:w-[60%]
-      h-auto
-      object-cover
-    "
+        absolute
+        top-0
+        right-0
+        w-[65%]
+        h-205
+        bg-no-repeat
+        bg-top-right
+        bg-contain
+        -z-10
+      "
+        style={{
+          backgroundImage: "url('/Background.png')",
+        }}
       />
-      <div className="relative z-10">
-        <Navigation />
-        <HeroSection />
-        <Feature />
-        <Howitwork />
-        <Testimonial />
-        <Pricing />
-        <Blog />
-        <Footer />
-      </div>
-    </div>
+
+      <Navigation />
+      <HeroSection />
+
+      <Feature />
+      <Howitwork />
+      <Testimonial />
+      <Pricing />
+      <Blog />
+      <Footer />
+    </main>
   );
 };
-
 export default HomeScreen;

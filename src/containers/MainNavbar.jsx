@@ -8,7 +8,7 @@ const MainNavbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="mx-4 sm:mx-8 lg:mx-20 my-5">
+    <div className="mx-4 sm:mx-8 lg:mx-30 my-5">
       {/* Navbar */}
       <div className="flex items-center justify-between">
         {/* Logo */}

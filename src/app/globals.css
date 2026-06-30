@@ -4,19 +4,30 @@
 
 @custom-variant dark (&:is(.dark *));
 
-.testimonialSwiper .swiper-button-prev,
-.testimonialSwiper .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   width: 55px !important;
   height: 55px !important;
-  background: rgba(255, 255, 255, 0.12);
+  background: gray;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.swiper-button-next svg {
+  height: 25px !important;
+  width: 25px !important;
+  color: white !important;
+}
+.swiper-button-prev svg {
+  height: 25px !important;
+  width: 25px !important;
+  color: white !important;
+}
 .testimonialSwiper .swiper-button-prev::after,
 .testimonialSwiper .swiper-button-next::after {
-  font-size: 10px !important; /* 👈 arrow size control here */
+  font-size: 10px !important;
   font-weight: bold;
 }
 

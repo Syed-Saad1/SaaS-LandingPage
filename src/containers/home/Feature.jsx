@@ -25,15 +25,15 @@ max-lg:px-4
         </h1>
       </div>
 
-      <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-6 mt-10 px-4">
+      <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-20 mt-10 px-4">
         {" "}
         <div className="w-83.25 h-110 rounded-2xl max-lg:w-full max-lg:h-auto">
           <Image
-            src="/icon1.png"
+            src="/Icon1.png"
             className="py-4 px-5 w-full h-auto"
             width={380}
             height={380}
-            alt="icon1"
+            alt="Icon1"
           />
           <div className="flex-col flex justify-center items-center mt-3">
             <h1 className="font-semibold  text-xl">Secured Platform</h1>
@@ -49,13 +49,13 @@ max-lg:px-4
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-83.25 h-auto lg:h-110 rounded-2xl bg-[#F9F9F9]">
+        <div className="w-full max-w-83.25 h-120 lg:h-110 rounded-2xl bg-[#F9F9F9]">
           <Image
-            src="/icon2.png"
+            src="/Icon2.png"
             className="py-4 px-5 w-full h-auto"
             width={320}
             height={320}
-            alt="icon2"
+            alt="Icon2"
           />
           <div className="flex-col flex justify-center items-center mt-3">
             <h1 className="font-semibold  text-xl">Advanced Analytics</h1>
@@ -73,11 +73,11 @@ max-lg:px-4
         </div>
         <div className="w-83.25 h-110 rounded-2xl max-lg:w-full max-lg:h-auto">
           <Image
-            src="/icon3.png"
+            src="/Icon3.png"
             className="py-4 px-5 w-full h-auto"
             width={380}
             height={380}
-            alt="icon3"
+            alt="Icon3"
           />
           <div className="flex-col flex justify-center items-center mt-3">
             <h1 className="font-semibold  text-xl">Powerful Automation</h1>
@@ -95,68 +95,88 @@ max-lg:px-4
         </div>
       </div>
 
-      <div>
-        <div className="mt-20 lg:mt-30 flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-0 px-4">
-          {" "}
-          <div
-            className="
-h-105
-w-150
-bg-[#F1F1F1]
-rounded-[40px]
-flex flex-col
-justify-center
-px-12
-max-lg:w-full
-max-lg:h-auto
-max-lg:px-6
-max-lg:py-10
+      <div className="mt-20 lg:mt-30 flex flex-col lg:flex-row justify-center items-center px-4">
+        <div
+          className="
+      h-120
+      w-180
+      bg-[#F1F1F1]
+      rounded-[40px]
+      flex flex-col
+      justify-center
+      px-12
+      relative
+      z-10
+      max-lg:w-full
+      max-lg:h-auto
+      max-lg:px-10
+      max-lg:py-10
+    "
+        >
+          <h1 className="font-bold text-2xl lg:text-3xl">
+            Powerful and easy to use <br />
+            saas builder platform
+          </h1>
 
-"
-          >
-            <h1 className="font-bold text-2xl lg:text-3xl">
-              Powerful and easy to use <br /> saas builder platform
-            </h1>
-            <p className="mt-4 text-[#797979] font-medium text-[14px]">
-              It is a long established fact that a reader will be by the from{" "}
-              <br />
-              readable content of a page when looking at its layout. The point{" "}
-              <br />
-              of using lorem Ipsum.
-            </p>
-            <div className="flex mt-6 items-center gap-3">
-              <Image
-                src="/CostImg.png"
-                height={60}
-                width={60}
-                alt="CostEffectiveImg"
-              />
-              <div>
-                <h1 className="mt-2 font-bold text-[18px]">Cost Effective</h1>
-                <p className="text-[#797979] leading-5 text-[14px] mt-1">
-                  Contrary to popular belief, Lore Ipsum <br /> is not simply
-                  random text.{" "}
-                </p>
-              </div>
+          <p className="mt-4 text-[#797979] font-medium text-[14px] leading-7">
+            It is a long established fact that a reader will be by the from
+            <br />
+            readable content of a page when looking at its layout. The point
+            <br />
+            of using lorem Ipsum.
+          </p>
+
+          <div className="flex mt-8 items-center gap-4">
+            <Image
+              src="/CostImg.png"
+              width={60}
+              height={60}
+              alt="Cost Effective"
+            />
+
+            <div>
+              <h2 className="font-bold text-[20px]">Cost Effective</h2>
+
+              <p className="text-[#797979] text-[14px] leading-6">
+                Contrary to popular belief, Lore Ipsum
+                <br />
+                is not simply random text.
+              </p>
             </div>
           </div>
-          <div className="relative flex items-center">
-            <Image
-              src="/BgBlue.png"
-              alt=""
-              height={420}
-              width={200}
-              className="absolute -right-6 lg:-right-10 top-1/2 -translate-y-1/2 z-0 w-35 lg:w-50 h-auto"
-            />
+        </div>
 
-            <Image
-              src="/System.png"
-              width={400}
-              height={400}
-              alt=""
-              className="relative z-10 max-lg:w-70 w-100 h-auto"
-            />
-          </div>
+        {/* Right Side */}
+        <div className="relative lg:-ml-32 mt-10 lg:mt-0">
+          <Image
+            src="/BgBlue.png"
+            width={260}
+            height={260}
+            alt="Blue Shape"
+            className="
+        absolute
+        
+        right-40
+        left-120.5
+        top-1/2
+        -translate-y-1/2
+        z-0
+      "
+          />
+
+          <Image
+            src="/System.png"
+            width={400}
+            height={400}
+            alt="Dashboard"
+            className="
+        relative
+        z-10
+        w-140
+        h-100
+        object-contain
+      "
+          />
         </div>
       </div>
     </div>

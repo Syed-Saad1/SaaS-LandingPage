@@ -110,7 +110,7 @@ export default function Footer() {
           <div className="flex justify-center mt-20">
             <hr className="w-[80%] border-t border-[#E3E3E3]" />
           </div>{" "}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mt-6 px-6 lg:px-20 mb-6 text-center lg:text-left">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mt-6 px-6 lg:px-26 mb-6 text-center lg:text-left">
             {" "}
             <p className="font-normal text-[#797979] text-md">
               Copyright © Saasup | Designed by Victorflow - Powered by Webflow
