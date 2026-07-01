@@ -9,14 +9,11 @@ const MainNavbar = () => {
 
   return (
     <div className="mx-4 sm:mx-8 lg:mx-30 my-5">
-      {/* Navbar */}
       <div className="flex items-center justify-between">
-        {/* Logo */}
         <Link href="/">
           <img src="/Logo.png" alt="Logo" width={120} height={28} />
         </Link>
 
-        {/* Desktop Menu */}
         <div className="hidden lg:flex items-center gap-6">
           <nav className="h-10 w-100 bg-black/10 rounded-[39px]">
             <ul className="flex items-center justify-center gap-4 h-full">
@@ -86,9 +83,15 @@ const MainNavbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Icon */}
-        <button className="lg:hidden" onClick={() => setOpen(!open)}>
-          {open ? <X size={28} /> : <Menu size={28} />}
+        <button
+          onClick={() => setOpen(!open)}
+          className="lg:hidden z-50 relative"
+        >
+          {open ? (
+            <X size={28} color="black" />
+          ) : (
+            <Menu size={28} color="black" />
+          )}
         </button>
       </div>
 

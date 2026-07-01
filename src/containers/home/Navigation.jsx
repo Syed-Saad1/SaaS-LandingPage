@@ -19,7 +19,6 @@ const Navigation = () => {
           className="w-25 sm:w-30 h-auto"
         />
 
-        {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-6">
           <nav className="w-107 h-10 bg-black/10 rounded-full">
             <ul className="flex items-center justify-center gap-4 h-full">
@@ -100,13 +99,18 @@ const Navigation = () => {
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button className="lg:hidden text-white" onClick={() => setOpen(!open)}>
-          {open ? <X size={30} /> : <Menu size={30} />}
+        <button
+          onClick={() => setOpen(!open)}
+          className="lg:hidden z-50 relative"
+        >
+          {open ? (
+            <X size={28} color="black" />
+          ) : (
+            <Menu size={28} color="black" />
+          )}
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {open && (
         <div className="lg:hidden mt-5 bg-white rounded-3xl shadow-xl p-6">
           <ul className="flex flex-col items-center gap-5">
