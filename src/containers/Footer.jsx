@@ -85,7 +85,7 @@ export default function Footer() {
               <li className="pt-1.5 text-md">Changelog</li>
             </ul>
           </div>
-          <div className="w-full lg:w-1/4 bg-[#F9F9F9] rounded-4xl px-6 py-8">
+          <div className="w-full lg:w-[30%] bg-[#F9F9F9] rounded-4xl px-6 py-8">
             {" "}
             <div>
               <div>
@@ -99,8 +99,24 @@ export default function Footer() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 mt-4">
                   {" "}
-                  <img src="/Button.png" alt="" className="w-30 h-auto" />{" "}
-                  <img className="w-30 h-auto" src="/Button (1).png" alt="" />
+                  <button className="flex justify-center items-center gap-1 bg-black px-3 py-2 rounded-full">
+                    {" "}
+                    <img
+                      src="/Apple.png"
+                      className="h-5 w-5 object-contain"
+                      alt=""
+                    />{" "}
+                    <p className="text-white font-bold text-sm">App Store</p>
+                  </button>{" "}
+                  <button className="flex justify-center items-center gap-1 border px-3 py-2 rounded-full">
+                    {" "}
+                    <img
+                      src="/Play.png"
+                      className="h-5 w-5 object-contain"
+                      alt=""
+                    />{" "}
+                    <p className="text-black font-bold text-sm">App Store</p>
+                  </button>{" "}
                 </div>
               </div>
             </div>
@@ -115,12 +131,11 @@ export default function Footer() {
             <p className="font-normal text-[#797979] text-md">
               Copyright © Saasup | Designed by Victorflow - Powered by Webflow
             </p>
-            <div>
-              <img
-                src="/SocialMedia.png"
-                alt="Social Media"
-                className="w-36 h-auto"
-              />{" "}
+            <div className="flex gap-6 items-center">
+              <img src="/FB.png" />
+              <img src="/TWI.png" />
+              <img src="/LN.png" />
+              <img src="/IN.png" />
             </div>
           </div>
         </div>
