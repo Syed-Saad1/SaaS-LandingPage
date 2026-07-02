@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 export default function AboutPage() {
@@ -140,37 +141,192 @@ export default function AboutPage() {
             The story and values behind <br /> our company
           </h1>
         </div>{" "}
-        <div className="flex flex-col justify-center items-center gap-10 mt-10">
-          <div className="flex gap-10">
-            <div className="flex bg-[#F9F9F9] h-auto w-100 py-4 px-6 rounded-3xl">
-              <div>
-                <img className="h-20 w-26 object-contain" src="/Ino.png" />
+        <div className="flex flex-col justify-center items-center gap-10 mt-10 px-4">
+          {" "}
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-34 w-full justify-center">
+            {" "}
+            <div className="flex flex-col sm:flex-row items-center gap-6 bg-[#F9F9F9] h-auto w-full sm:max-w-130 py-4 px-6 rounded-3xl">
+              <div className="h-24 w-20 rounded-xl bg-[#6046FF] flex items-center justify-center shrink-0">
+                <img
+                  src="/Ino.svg"
+                  alt="Icon"
+                  className="h-15 w-12.5 object-contain"
+                />
               </div>
-              <div></div>
-            </div>
-            <div className="flex bg-[#F9F9F9] h-auto w-100 py-4 px-6 rounded-3xl">
-              <div>
+              <div className="text-center sm:text-left">
                 {" "}
-                <img className="h-20 w-26 object-contain" src="/TW.png" />
+                <h1 className="text-[#242331] font-bold text-[18px]">
+                  Innovation
+                </h1>
+                <p className="text-[12px] text-[#797979] pt-1">
+                  Long established fact that a readeed to will{" "}
+                  <br className="hidden sm:block" /> be distracted by the
+                  readable content of a page when looking at its layout
+                </p>
               </div>
-              <div></div>
+            </div>
+            <div className="flex flex-col sm:flex-row items-center gap-6 bg-[#F9F9F9] h-auto w-full sm:max-w-130 py-4 px-6 rounded-3xl">
+              <div className="h-24 w-20 rounded-xl bg-[#6046FF] flex items-center justify-center shrink-0">
+                <img
+                  src="/TW.svg"
+                  alt="Icon"
+                  className="h-15 w-12.5 object-contain"
+                />
+              </div>
+              <div className="text-center sm:text-left">
+                {" "}
+                <h1 className="text-[#242331] font-bold text-[18px]">
+                  Team Work
+                </h1>
+                <p className="text-[12px] text-[#797979] pt-1">
+                  Long established fact that a readeed to will{" "}
+                  <br className="hidden sm:block" /> be distracted by the
+                  readable content of a page when looking at its layout
+                </p>
+              </div>
             </div>
           </div>
-          <div className="flex gap-10">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-34 w-full justify-center">
             {" "}
-            <div className="flex bg-[#F9F9F9] h-auto w-100 py-4 px-6 rounded-3xl">
-              <div>
-                {" "}
-                <img className="h-20 w-26 object-contain" src="/EX.png" />
+            <div className="flex flex-col sm:flex-row items-center gap-6 bg-[#F9F9F9] h-auto w-full sm:max-w-130 py-4 px-6 rounded-3xl">
+              <div className="h-24 w-20 rounded-xl bg-[#6046FF] flex items-center justify-center shrink-0">
+                <img
+                  src="/EX.svg"
+                  alt="Icon"
+                  className="h-15 w-12.5 object-contain"
+                />
               </div>
-              <div></div>
+              <div className="text-center sm:text-left">
+                {" "}
+                <h1 className="text-[#242331] font-bold text-[18px]">
+                  Excellence
+                </h1>
+                <p className="text-[12px] text-[#797979] pt-1">
+                  Long established fact that a readeed to will{" "}
+                  <br className="hidden sm:block" /> be distracted by the
+                  readable content of a page when looking at its layout
+                </p>
+              </div>
             </div>
-            <div className="flex bg-[#F9F9F9] h-auto w-100 py-4 px-6 rounded-3xl">
-              <div>
-                {" "}
-                <img className="h-20 w-26 object-contain" src="/RES.png" />
+            <div className="flex flex-col sm:flex-row items-center gap-6 bg-[#F9F9F9] h-auto w-full sm:max-w-130 py-4 px-6 rounded-3xl">
+              <div className="h-24 w-20 rounded-xl bg-[#6046FF] flex items-center justify-center shrink-0">
+                <img
+                  src="/RES.svg"
+                  alt="Icon"
+                  className="h-15 w-12.5 object-contain"
+                />
               </div>
-              <div></div>
+              <div className="text-center sm:text-left">
+                {" "}
+                <h1 className="text-[#242331] font-bold text-[18px]">
+                  Responsibility{" "}
+                </h1>
+                <p className="text-[12px] text-[#797979] pt-1">
+                  Long established fact that a readeed to will{" "}
+                  <br className="hidden sm:block" /> be distracted by the
+                  readable content of a page when looking at its layout
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="mt-26">
+          <hr />
+        </div>
+        <div className="flex flex-col lg:flex-row justify-between px-4 sm:px-8 lg:px-20 mt-26 gap-12">
+          {" "}
+          <div>
+            {" "}
+            <button className="bg-[#EFECFF] text-[#5236FF] px-6 py-3 rounded-full text-[15px] font-bold">
+              Career
+            </button>
+            <h1 className="font-extrabold text-3xl lg:text-4xl mt-6 leading-tight">
+              {" "}
+              Join our Saasup <br className="hidden sm:block" /> Let’s work
+              together
+            </h1>
+          </div>
+          <div>
+            <div className="mt-6 h-auto w-full lg:w-120 border border-[#CBCBCB] rounded-2xl">
+              <div className="px-5 sm:px-8 py-6 sm:py-8">
+                <h1 className="font-bold text-md text-[#242331]">
+                  Web Designer & Developer
+                </h1>
+                <p className="font-normal text-sm text-[#242331] pt-2">
+                  San Francisco, CA |{" "}
+                  <span className="text-[#5236FF]">Full Time</span>
+                </p>
+                <p className="text-[13.10px] font-normal text-[#797979] pt-3">
+                  It is a long established fact that a reader will be distracted
+                  by the <br className="hidden sm:block" />
+                  readable content of a page from when looking at it layout. The
+                  point of <br className="hidden sm:block" /> using Lorem Ipsum
+                  looking at it layout.
+                </p>
+                <button className="mt-4 bg-[#242331] px-4 py-2 text-whites rounded-full text-white text-xs ">
+                  Apply Now
+                </button>
+              </div>
+            </div>
+            <div className="mt-6 h-auto w-full lg:w-120 border border-[#CBCBCB] rounded-2xl">
+              <div className="px-5 sm:px-8 py-6 sm:py-8">
+                <h1 className="font-bold text-md text-[#242331]">
+                  Product Development manager{" "}
+                </h1>
+                <p className="font-normal text-sm text-[#242331] pt-2">
+                  San Francisco, CA |{" "}
+                  <span className="text-[#5236FF]">Full Time</span>
+                </p>
+                <p className="text-[13.10px] font-normal text-[#797979] pt-3">
+                  It is a long established fact that a reader will be distracted
+                  by the <br className="hidden sm:block" /> readable content of
+                  a page from when looking at it layout. The point of{" "}
+                  <br className="hidden sm:block" /> using Lorem Ipsum looking
+                  at it layout.
+                </p>
+                <button className="mt-4 border px-4 py-2 text-whites rounded-full text-black text-xs ">
+                  Apply Now
+                </button>
+              </div>
+            </div>
+            <div className="mt-6 h-auto w-full lg:w-120 border border-[#CBCBCB] rounded-2xl">
+              {" "}
+              <div className="px-5 sm:px-8 py-6 sm:py-8">
+                <h1 className="font-bold text-md text-[#242331]">
+                  Head of finnance{" "}
+                </h1>
+                <p className="font-normal text-sm text-[#242331] pt-2">
+                  San Francisco, CA |{" "}
+                  <span className="text-[#5236FF]">Full Time</span>
+                </p>
+                <p className="text-[13.10px] font-normal text-[#797979] pt-3">
+                  It is a long established fact that a reader will be distracted
+                  by the <br className="hidden sm:block" /> readable content of
+                  a page from when looking at it layout. The point of{" "}
+                  <br className="hidden sm:block" /> using Lorem Ipsum looking
+                  at it layout.
+                </p>
+                <button className="mt-4 border px-4 py-2 text-whites rounded-full text-black text-xs ">
+                  Apply Now
+                </button>
+              </div>
+            </div>
+
+            <div className="mt-6 h-auto w-full lg:w-120 bg-[#5236FF] rounded-2xl">
+              <div className="flex flex-col justify-center items-center py-10 sm:py-14 px-6">
+                <h3 className="text-white font-bold text-lg">
+                  Can't find the position you are looking for?
+                </h3>
+                <p className="text-center text-white text-xs mt-2 font-normal">
+                  Don't worry, get in touch with us anyways, we are always{" "}
+                  <br /> looking for great team members to join us.
+                </p>
+                <button className="mt-4 bg-[#FFFFFF] px-4 py-2 text-whites rounded-full text-black text-xs ">
+                  Apply Now
+                </button>
+              </div>
             </div>
           </div>
         </div>

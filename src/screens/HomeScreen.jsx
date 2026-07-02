@@ -10,7 +10,6 @@ import Footer from "@/containers/Footer";
 const HomeScreen = () => {
   return (
     <main className=" relative overflow-hidden">
-      {/* Purple Background */}
       <div
         className="
         md:block

@@ -20,12 +20,12 @@ const HeroSection = () => {
               interdum ullamcorper sed pharetra sene.{" "}
             </p>
 
-            <div className="flex gap-4 mt-6">
-              <button className="bg-[#5236FF] text-white px-8 py-4 rounded-full">
+            <div className="mt-6 flex flex-col sm:flex-row items-center sm:items-start gap-4">
+              <button className="w-full sm:w-auto bg-[#5236FF] text-white px-8 py-4 rounded-full">
                 Get Started
               </button>
 
-              <button className="flex items-center gap-2 bg-gray-100 px-8 py-4 rounded-full">
+              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gray-100 px-8 py-4 rounded-full">
                 Watch Video
                 <Play fill="white" size={18} />
               </button>
