@@ -32,8 +32,8 @@ const MainNavbar = () => {
                 </Link>
               </li>
 
-              <li>
-                <div className="flex items-center gap-1">
+              <li className="relative group">
+                <div className="flex items-center gap-1 cursor-pointer">
                   <Link
                     href="/feauture"
                     className="text-black text-[14px] font-semibold"
@@ -41,7 +41,37 @@ const MainNavbar = () => {
                     Feature
                   </Link>
 
-                  <img src="/droparrow.png" alt="" width={18} height={18} />
+                  <img
+                    className=""
+                    src="/droparrow.png"
+                    alt=""
+                    width={18}
+                    height={18}
+                  />
+                </div>
+
+                {/* Dropdown */}
+                <div className="absolute top-full left-0 mt-3 w-52 bg-white rounded-xl shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                  <Link
+                    href="/feauture/integration"
+                    className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white rounded-t-xl"
+                  >
+                    Feature One
+                  </Link>
+
+                  <Link
+                    href="/feature/feature-2"
+                    className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white"
+                  >
+                    Feature Two
+                  </Link>
+
+                  <Link
+                    href="/feature/feature-3"
+                    className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white rounded-b-xl"
+                  >
+                    Feature Three
+                  </Link>
                 </div>
               </li>
 

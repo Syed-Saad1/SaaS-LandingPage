@@ -38,21 +38,47 @@ const Navigation = () => {
                 </Link>
               </li>
 
-              <li className="flex items-center">
-                <Link
-                  className="text-white text-[14px] font-semibold"
-                  href="/feauture"
-                >
-                  Feature
-                </Link>
+              <li className="relative group">
+                <div className="flex items-center gap-1 cursor-pointer">
+                  <Link
+                    href="/feauture"
+                    className="text-white text-[14px] font-semibold"
+                  >
+                    Feature
+                  </Link>
 
-                <Image
-                  src="/droparrow.png"
-                  alt="arrow"
-                  width={18}
-                  height={18}
-                  className="brightness-0 invert ml-1"
-                />
+                  <img
+                    src="/droparrow.png"
+                    className="brightness-0 invert ml-1"
+                    alt=""
+                    width={18}
+                    height={18}
+                  />
+                </div>
+
+                {/* Dropdown */}
+                <div className="absolute top-full left-0 mt-3 w-52 bg-white rounded-xl shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                  <Link
+                    href="/feauture/integration"
+                    className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white rounded-t-xl"
+                  >
+                    Feature One
+                  </Link>
+
+                  <Link
+                    href="/feature/feature-2"
+                    className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white"
+                  >
+                    Feature Two
+                  </Link>
+
+                  <Link
+                    href="/feature/feature-3"
+                    className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white rounded-b-xl"
+                  >
+                    Feature Three
+                  </Link>
+                </div>
               </li>
 
               <li className="flex items-center">
