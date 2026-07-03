@@ -17,7 +17,7 @@ max-lg:gap-8
 max-lg:px-4
 "
       >
-        <button className="bg-[#EFECFF] px-10 py-4 rounded-full text-[#5236FF] font-bold text-[13px]">
+        <button className="cursor-pointer bg-[#EFECFF] px-10 py-4 rounded-full text-[#5236FF] font-bold text-[13px]">
           Features
         </button>
         <h1 className="font-extrabold text-3xl text-center mt-5">

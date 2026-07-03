@@ -16,7 +16,7 @@ export default function Testimonial() {
           backgroundImage: "url('/roundedangleback.png')",
         }}
       >
-        <button className="bg-white/20 text-white px-5 py-2 rounded-full  mt-4 backdrop-blur-sm">
+        <button className="cursor-pointer bg-white/20 text-white px-5 py-2 rounded-full  mt-4 backdrop-blur-sm">
           Testimonial
         </button>
 

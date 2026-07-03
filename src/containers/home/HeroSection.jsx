@@ -21,11 +21,10 @@ const HeroSection = () => {
             </p>
 
             <div className="mt-6 flex flex-col sm:flex-row items-center sm:items-start gap-4">
-              <button className="w-full sm:w-auto bg-[#5236FF] text-white px-8 py-4 rounded-full">
+              <button className="cursor-pointer w-full sm:w-auto bg-[#5236FF] text-white px-8 py-4 rounded-full">
                 Get Started
               </button>
-
-              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gray-100 px-8 py-4 rounded-full">
+              <button className="cursor-pointer w-full sm:w-auto flex items-center justify-center gap-2 bg-gray-100 px-8 py-4 rounded-full">
                 Watch Video
                 <Play fill="white" size={18} />
               </button>

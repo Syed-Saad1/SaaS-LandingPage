@@ -5,7 +5,7 @@ export default function Howitwork() {
   return (
     <div>
       <div className="flex flex-col justify-center items-center mt-16">
-        <button className="bg-[#EFECFF] text-[#5236FF] px-3 py-3 rounded-full text-[15px] font-bold">
+        <button className="bg-[#EFECFF] text-[#5236FF] px-3 py-3 rounded-full text-[15px] font-bold cursor-pointer">
           How It Work
         </button>
         <h1 className="text-center font-extrabold text-4xl mt-6 leading-9 max-lg:text-3xl">
@@ -14,13 +14,13 @@ export default function Howitwork() {
         </h1>
         <div className="flex gap-4 lg:gap-20 mt-10 max-lg:flex-col max-lg:w-full max-lg:px-4">
           {" "}
-          <button className="px-20 py-6 text-center bg-[#5236FF] rounded-2xl overflow-hidden text-white font-bold text-[18px] max-lg:px-8">
+          <button className="cursor-pointer px-20 py-6 text-center bg-[#5236FF] rounded-2xl overflow-hidden text-white font-bold text-[18px] max-lg:px-8">
             01. Create account
           </button>
-          <button className="px-20 py-6 text-center bg-[#F9F9F9] rounded-2xl overflow-hidden text-black font-bold text-[18px] max-lg:px-8">
+          <button className="cursor-pointer px-20 py-6 text-center bg-[#F9F9F9] rounded-2xl overflow-hidden text-black font-bold text-[18px] max-lg:px-8">
             02. Install tracking code
           </button>
-          <button className="px-20 py-6 text-center bg-[#F9F9F9] rounded-2xl overflow-hidden text-black font-bold text-[18px] max-lg:px-8">
+          <button className="cursor-pointer px-20 py-6 text-center bg-[#F9F9F9] rounded-2xl overflow-hidden text-black font-bold text-[18px] max-lg:px-8">
             03. Track analytics
           </button>
         </div>
@@ -45,7 +45,7 @@ export default function Howitwork() {
               layout. The point of using Lorem Ipsum.
             </p>
 
-            <button className="mt-8 bg-black text-white px-8 py-3 rounded-full font-semibold">
+            <button className="cursor-pointer mt-8 bg-black text-white px-8 py-3 rounded-full font-semibold">
               Get Started
             </button>
           </div>

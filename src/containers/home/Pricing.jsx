@@ -10,7 +10,7 @@ function Pricing() {
       >
         <div className="text-center lg:text-left">
           {" "}
-          <button className="bg-[#EFECFF] text-[#5236FF] text-sm px-4 py-2 rounded-full">
+          <button className="cursor-pointer bg-[#EFECFF] text-[#5236FF] text-sm px-4 py-2 rounded-full">
             Pricing
           </button>
           <h1 className="text-2xl md:text-5xl text-black font-extrabold mt-4">
@@ -27,10 +27,34 @@ function Pricing() {
             Accepted Payment Methods
           </h1>
           <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 bg-[#F9F9F9] px-6 py-3 rounded-xl mt-5 w-fit">
-            <Image src="/VISA.svg" height={40} width={50} alt="VisaImg" />
-            <Image src="/MASTER.svg" height={40} width={50} alt="MasterImg" />
-            <Image src="/PAYPAL.svg" height={40} width={50} alt="PaypalImg" />
-            <Image src="/AMAZON.svg" height={40} width={50} alt="AmazonImg" />
+            <Image
+              className="cursor-pointer"
+              src="/VISA.svg"
+              height={40}
+              width={50}
+              alt="VisaImg"
+            />
+            <Image
+              className="cursor-pointer"
+              src="/MASTER.svg"
+              height={40}
+              width={50}
+              alt="MasterImg"
+            />
+            <Image
+              className="cursor-pointer"
+              src="/PAYPAL.svg"
+              height={40}
+              width={50}
+              alt="PaypalImg"
+            />
+            <Image
+              className="cursor-pointer"
+              src="/AMAZON.svg"
+              height={40}
+              width={50}
+              alt="AmazonImg"
+            />
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-start gap-5">
@@ -44,7 +68,7 @@ function Pricing() {
                 <h1 className="text-[#242331] font-extrabold text-2xl">
                   Basic
                 </h1>
-                <button className="bg-[#FFFFFF] px-4 py-2 rounded-full text-[#797979] font-bold text-sm">
+                <button className="cursor-pointer bg-[#FFFFFF] px-4 py-2 rounded-full text-[#797979] font-bold text-sm">
                   Save 30%
                 </button>
               </div>
@@ -77,7 +101,7 @@ function Pricing() {
               </div>
               <div className="flex justify-center items-center">
                 {" "}
-                <button className="mt-6 w-[80%] sm:w-auto border border-[#D3D3D3] px-4 py-2 rounded-full font-bold text-[14px]">
+                <button className="cursor-pointer mt-6 w-[80%] sm:w-auto border border-[#D3D3D3] px-4 py-2 rounded-full font-bold text-[14px]">
                   Get Started
                 </button>
               </div>
@@ -94,7 +118,7 @@ function Pricing() {
                 <h1 className="text-[#242331] font-extrabold text-2xl">
                   Advanced
                 </h1>
-                <button className="bg-[#EFECFF] px-4 py-2 rounded-full text-[#5236FF] font-bold text-sm">
+                <button className="cursor-pointer bg-[#EFECFF] px-4 py-2 rounded-full text-[#5236FF] font-bold text-sm">
                   Popular
                 </button>
               </div>
@@ -128,7 +152,7 @@ function Pricing() {
               </div>
               <div className="flex justify-center items-center">
                 {" "}
-                <button className="mt-6 bg-[#242331] px-5 py-2 rounded-full font-bold text-white text-[14px]">
+                <button className="cursor-pointer mt-6 bg-[#242331] px-5 py-2 rounded-full font-bold text-white text-[14px]">
                   Get Started
                 </button>
               </div>

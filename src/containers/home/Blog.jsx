@@ -5,7 +5,7 @@ function Blog() {
   return (
     <div>
       <div className="mt-20 flex flex-col justify-center items-center px-4">
-        <button className="bg-[#EFECFF] px-8 py-3 rounded-full text-[#5236FF] font-bold text-[13px]">
+        <button className="cursor-pointer bg-[#EFECFF] px-8 py-3 rounded-full text-[#5236FF] font-bold text-[13px]">
           Blogs
         </button>
 
@@ -21,9 +21,10 @@ function Blog() {
             {" "}
             <div className="flex justify-center">
               <img
+                cl
                 src="/Eimg.png"
                 alt=""
-                className="w-[90%] h-auto object-cover mt-4 rounded-2xl mx-auto"
+                className="cursor-pointer w-[90%] h-auto object-cover mt-4 rounded-2xl mx-auto"
               />
             </div>
             <div className="px-6 py-6">
@@ -62,7 +63,7 @@ function Blog() {
               <img
                 src="/Limg.png"
                 alt=""
-                className="w-[90%] h-auto object-cover mt-4 rounded-2xl mx-auto"
+                className="cursor-pointer w-[90%] h-auto object-cover mt-4 rounded-2xl mx-auto"
               />
             </div>
             <div className="px-6 py-6">

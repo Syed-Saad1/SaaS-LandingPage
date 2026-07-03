@@ -60,14 +60,14 @@ export default function Footer() {
               <hr className="text-[#E3E3E3]" />
             </div>
             <ul className="font-normal text-[#797979] pt-2">
-              <li className="pt-1.5 text-md">Home</li>
-              <li className="pt-1.5 text-md">About Us</li>
-              <li className="pt-1.5 text-md text-[#5236FF] font-bold">
+              <li className="pt-1.5 text-md cursor-pointer">Home</li>
+              <li className="pt-1.5 text-md cursor-pointer">About Us</li>
+              <li className="pt-1.5 text-md cursor-pointer text-[#5236FF] font-bold">
                 Integrations
               </li>
-              <li className="pt-1.5 text-md">Pricing</li>
-              <li className="pt-1.5 text-md">Features</li>
-              <li className="pt-1.5 text-md">Contact Us</li>
+              <li className="pt-1.5 text-md cursor-pointer">Pricing</li>
+              <li className="pt-1.5 text-md cursor-pointer">Features</li>
+              <li className="pt-1.5 text-md cursor-pointer">Contact Us</li>
             </ul>
           </div>
           <div className="w-1/6">
@@ -77,12 +77,12 @@ export default function Footer() {
               <hr className="text-[#E3E3E3]" />
             </div>
             <ul className="font-normal text-[#797979] pt-2">
-              <li className="pt-1.5 text-md">Password</li>
-              <li className="pt-1.5 text-md">Protected</li>
-              <li className="pt-1.5 text-md">404 Not Found</li>
-              <li className="pt-1.5 text-md">Style Guide</li>
-              <li className="pt-1.5 text-md">Licenses</li>
-              <li className="pt-1.5 text-md">Changelog</li>
+              <li className="pt-1.5 text-md cursor-pointer">Password</li>
+              <li className="pt-1.5 text-md cursor-pointer">Protected</li>
+              <li className="pt-1.5 text-md cursor-pointer">404 Not Found</li>
+              <li className="pt-1.5 text-md cursor-pointer">Style Guide</li>
+              <li className="pt-1.5 text-md cursor-pointer">Licenses</li>
+              <li className="pt-1.5 text-md cursor-pointer">Changelog</li>
             </ul>
           </div>
           <div className="w-full lg:w-[30%] bg-[#F9F9F9] rounded-4xl px-6 py-8">
@@ -99,7 +99,7 @@ export default function Footer() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 mt-4">
                   {" "}
-                  <button className="flex justify-center items-center gap-1 bg-black px-3 py-2 rounded-full">
+                  <button className="flex justify-center cursor-pointer items-center gap-1 bg-black px-3 py-2 rounded-full">
                     {" "}
                     <img
                       src="/Apple.png"
@@ -108,7 +108,7 @@ export default function Footer() {
                     />{" "}
                     <p className="text-white font-bold text-sm">App Store</p>
                   </button>{" "}
-                  <button className="flex justify-center items-center gap-1 border px-3 py-2 rounded-full">
+                  <button className="flex justify-center cursor-pointer items-center gap-1 border px-3 py-2 rounded-full">
                     {" "}
                     <img
                       src="/Play.png"
@@ -132,10 +132,10 @@ export default function Footer() {
               Copyright © Saasup | Designed by Victorflow - Powered by Webflow
             </p>
             <div className="flex gap-6 items-center">
-              <img src="/FB.png" />
-              <img src="/TWI.png" />
-              <img src="/LN.png" />
-              <img src="/IN.png" />
+              <img className="cursor-pointer" src="/FB.png" />
+              <img className="cursor-pointer" src="/TWI.png" />
+              <img className="cursor-pointer" src="/LN.png" />
+              <img className="cursor-pointer" src="/IN.png" />
             </div>
           </div>
         </div>

@@ -133,7 +133,7 @@ export default function AboutPage() {
       </section>
       <section>
         <div className="flex flex-col justify-center items-center mt-16">
-          <button className="bg-[#EFECFF] text-[#5236FF] px-3 py-3 rounded-full text-[15px] font-bold">
+          <button className="cursor-pointer bg-[#EFECFF] text-[#5236FF] px-3 py-3 rounded-full text-[15px] font-bold">
             Our values
           </button>
           <h1 className="text-center font-extrabold text-4xl mt-6 leading-9 max-lg:text-3xl">
@@ -237,15 +237,14 @@ export default function AboutPage() {
         </div>
         <div className="flex flex-col lg:flex-row justify-between px-4 sm:px-8 lg:px-20 mt-26 gap-12">
           {" "}
-          <div>
-            {" "}
-            <button className="bg-[#EFECFF] text-[#5236FF] px-6 py-3 rounded-full text-[15px] font-bold">
+          <div className="lg:sticky lg:top-24 self-start h-fit">
+            <button className="cursor-pointer bg-[#EFECFF] text-[#5236FF] px-6 py-3 rounded-full text-[15px] font-bold">
               Career
             </button>
+
             <h1 className="font-extrabold text-3xl lg:text-4xl mt-6 leading-tight">
-              {" "}
-              Join our Saasup <br className="hidden sm:block" /> Let’s work
-              together
+              Join our Saasup <br className="hidden sm:block" />
+              Let’s work together
             </h1>
           </div>
           <div>
