@@ -60,7 +60,9 @@ export default function Footer() {
               <hr className="text-[#E3E3E3]" />
             </div>
             <ul className="font-normal text-[#797979] pt-2">
-              <li className="pt-1.5 text-md cursor-pointer">Home</li>
+              <li href="/home" className="pt-1.5 text-md cursor-pointer">
+                Home
+              </li>
               <li className="pt-1.5 text-md cursor-pointer">About Us</li>
               <li className="pt-1.5 text-md cursor-pointer text-[#5236FF] font-bold">
                 Integrations

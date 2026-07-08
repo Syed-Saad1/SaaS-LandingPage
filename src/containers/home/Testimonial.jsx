@@ -8,6 +8,32 @@ import "swiper/css/navigation";
 import Image from "next/image";
 
 export default function Testimonial() {
+  const testimonials = [
+    {
+      id: 1,
+      name: "James Toriff",
+      role: "Developer",
+      image: "/men1.jpg",
+      review:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      id: 2,
+      name: "Sarah Smith",
+      role: "UI/UX Designer",
+      image: "/men2.jpg",
+      review:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      id: 3,
+      name: "Michael Lee",
+      role: "Founder",
+      image: "/Male.png",
+      review:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+  ];
   return (
     <section className="mt-40">
       <div
@@ -32,86 +58,38 @@ export default function Testimonial() {
               delay: 3000,
               disableOnInteraction: false,
             }}
-            loop={true}
+            loop
             className="testimonialSwiper"
           >
-            <SwiperSlide>
-              <div className="rounded-3xl text-center shadow-none flex flex-col justify-center items-center">
-                <p className="font-extrabold text-7xl text-white max-md:text-5xl">
-                  “
-                </p>
+            {testimonials.map((item) => (
+              <SwiperSlide key={item.id}>
+                <div className="rounded-3xl text-center shadow-none flex flex-col justify-center items-center">
+                  <p className="font-extrabold text-7xl text-white max-md:text-5xl">
+                    "
+                  </p>
 
-                <p className="text-white text-xl italic max-w-4xl mx-auto max-lg:text-lg max-md:text-base max-md:px-4">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable.
-                </p>
-                <Image
-                  src="/men1.jpg"
-                  height={60}
-                  width={60}
-                  alt="MaleImg"
-                  className="rounded-full object-cover mt-6 max-md:w-12.5 max-md:h-12.5"
-                />
-                <h3 className="mt-3 text-xl font-semibold text-white max-md:text-lg">
-                  James Toriff{" "}
-                </h3>
-                <p className="text-white text-[12px]">Devloper</p>
-              </div>
-            </SwiperSlide>
+                  <p className="text-white text-xl italic max-w-4xl mx-auto max-lg:text-lg max-md:text-base max-md:px-4">
+                    {item.review}
+                  </p>
 
-            <SwiperSlide>
-              <div className="rounded-3xl text-center shadow-none flex flex-col justify-center items-center">
-                <p className="font-extrabold text-7xl text-white max-md:text-5xl">
-                  “
-                </p>
+                  <div className="mt-4 relative flex overflow-hidden justify-center items-center size-14 rounded-full">
+                    <Image
+                      src={item.image}
+                      width={60}
+                      height={60}
+                      alt={item.name}
+                      className="object-cover size-full"
+                    />
+                  </div>
 
-                <p className="text-white text-xl italic max-w-4xl mx-auto">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable.
-                </p>
-                <Image
-                  src="/men2.jpg"
-                  height={60}
-                  width={60}
-                  alt="MaleImg"
-                  className="rounded-full object-cover mt-6"
-                />
+                  <h3 className="mt-3 text-xl font-semibold text-white max-md:text-lg">
+                    {item.name}
+                  </h3>
 
-                <h3 className="mt-3 text-xl font-semibold  text-white">
-                  Sarah Smith{" "}
-                </h3>
-
-                <p className="text-white text-[12px]">UI/UX Designer</p>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="rounded-3xl text-center shadow-none flex flex-col justify-center items-center">
-                <p className="font-extrabold text-7xl text-white">“</p>
-                <p className="text-white text-xl italic max-w-4xl mx-auto">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable.
-                </p>
-                <Image
-                  src="/Male.png"
-                  height={60}
-                  width={60}
-                  alt="MaleImg"
-                  className="rounded-full object-cover mt-6"
-                />
-                <h3 className="mt-3 text-xl font-semibold  text-white">
-                  Michael Lee
-                </h3>
-
-                <p className="text-white text-[12px]">Founder</p>
-              </div>
-            </SwiperSlide>
+                  <p className="text-white text-[12px]">{item.role}</p>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

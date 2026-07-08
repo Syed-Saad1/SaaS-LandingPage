@@ -50,13 +50,12 @@ const MainNavbar = () => {
                   />
                 </div>
 
-                {/* Dropdown */}
                 <div className="absolute top-full left-0 mt-3 w-52 bg-white rounded-xl shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                   <Link
                     href="/feauture/integration"
                     className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white rounded-t-xl"
                   >
-                    Feature One
+                    Integration{" "}
                   </Link>
 
                   <Link

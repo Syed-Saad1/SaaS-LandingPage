@@ -62,7 +62,7 @@ const Navigation = () => {
                     href="/feauture/integration"
                     className="block px-5 py-3 text-sm hover:bg-[#5236FF] hover:text-white rounded-t-xl"
                   >
-                    Feature One
+                    Integration{" "}
                   </Link>
 
                   <Link
