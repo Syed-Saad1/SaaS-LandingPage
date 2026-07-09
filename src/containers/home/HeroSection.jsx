@@ -24,9 +24,12 @@ const HeroSection = () => {
               <button className="cursor-pointer w-full sm:w-auto bg-[#5236FF] text-white px-8 py-4 rounded-full">
                 Get Started
               </button>
-              <button className="cursor-pointer w-full sm:w-auto flex items-center justify-center gap-2 bg-gray-100 px-8 py-4 rounded-full">
+              <button className="cursor-pointer w-full sm:w-auto flex items-center justify-center gap-2 bg-gray-100 pl-4 py-4 pr-2 rounded-full">
                 Watch Video
-                <Play fill="white" size={18} />
+                <div className="bg-black rounded-full p-1">
+                  {" "}
+                  <Play fill="white" size={18} />
+                </div>{" "}
               </button>
             </div>
           </div>

@@ -5,6 +5,26 @@
 html {
   scroll-behavior: smooth;
 }
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: #4f46e5;
+  border-radius: 10px;
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3730a3;
+}
 @custom-variant dark (&:is(.dark *));
 
 .swiper-button-prev,
